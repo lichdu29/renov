@@ -2,6 +2,12 @@
   "extends": [
     "config:base"
   ],
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "packageNames": ["bootstrap"],
+      "allowedVersions": "< 3.4.0"
+    }
+  ]
 
 }
