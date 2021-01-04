@@ -6,7 +6,8 @@
   "packageRules": [
     {
       "packageNames": ["bootstrap"],
-      "allowedVersions": "< 3.4.0"
+      "allowedVersions": "< 3.4.0",
+      "schedule" : ["every weekend"]
     }
   ]
 
