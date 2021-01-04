@@ -1,6 +1,13 @@
 {
   "extends": [
     "config:base"
+  ],
+    "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "packageNames": ["bootstrap"],
+      "allowedVersions": "< 3.4.0",
+      "schedule" : ["every weekend"]
+    }
   ]
-
 }
